@@ -5,6 +5,9 @@ int main(){
     cout<<"Enter your age: ";
     cin>>age;
     
-    if(age >= 18) cout<<"You can DRIVE";
+    if(age >= 18){
+        cout<<"You can DRIVE"<<endl;
+        cout<<"But you need a driving liscence";
+    } 
     else cout<<"You cannot drive";
 }
