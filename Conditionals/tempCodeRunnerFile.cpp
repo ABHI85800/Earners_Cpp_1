@@ -1,1 +1,1 @@
-n%3==0) cout<<"Sakshi"
+"Nitin";
