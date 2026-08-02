@@ -4,19 +4,19 @@ public:
         int n = nums.size();
         vector<bool> flag(n+1,false);
         for(int i=0;i<n;i++){
-            flag[arr[i]] = true;
+            flag[nums[i]] = true;
         }
         for(int i=0;i<=n;i++){
             if(flag[i]==false) return i;
         }
-        return 5363576; // TC = O(n), AS = O(n)
+        return 2; // TC = O(n), AS = O(n)
     }
 
     // int missingNumber(vector<int>& nums) {
     //     int n = nums.size();
     //     sort(nums.begin(),nums.end());
     //     for(int i=0;i<n;i++){
-    //         if(i != arr[i]) return i;
+    //         if(i != nums[i]) return i;
     //     }
     //     return n; // TC = O(nlogn)
     // }
